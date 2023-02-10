@@ -17,3 +17,4 @@ catch (ex) {
 finally{
     console.log('code that always will run');
 }
+
