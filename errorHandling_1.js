@@ -1,3 +1,4 @@
+//created on Feb 09,23
 //our first exan]mple in error handling
 //try catch: this is specific with the code eg. criticalcode
 // and then catch will analyse that 
