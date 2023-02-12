@@ -1,7 +1,7 @@
 // sun feb 12, 23
 // this is about the boolean logic
 
-const status = 400;
+const status = 200;
 
 if (status === 200){
     //true side 
