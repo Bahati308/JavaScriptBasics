@@ -24,5 +24,6 @@ console.log(demoDate);
 // we can get the dates in the following formats too
 
 console.log(`Day of week : ${demoDate.getDay()}`)
+console.log(`Date : ${demoDate.getDate()}`)
 
 
