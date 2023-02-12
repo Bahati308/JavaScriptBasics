@@ -1,6 +1,6 @@
 // sun feb 12, 23
 
-const status =400;
+const status =200;
 
 let message = '';
 
