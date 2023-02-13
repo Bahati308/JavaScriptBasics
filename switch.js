@@ -1,7 +1,7 @@
 // this is the same as the and.js 
 // but using the switch statement instead
 
-const stat =200;
+const stat =500;// with 500 now
 
 switch(stat){
     case 200:
