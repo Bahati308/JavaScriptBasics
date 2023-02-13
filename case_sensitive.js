@@ -2,8 +2,8 @@
 // and the messages too in this case the case-sensitiveness 
 
 const stat = 'error';
-
-if (stat === 'ERROR !') {
+// to rectify this we can use the following 
+if (stat.toUpperCase() === 'ERROR') {
     console.log ('oops, something went wrong !')
 }
     else {
