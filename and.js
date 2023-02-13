@@ -1,4 +1,4 @@
-const stat = 200;
+const stat = 500;// this is now with 500 instead of 200
 
     if (stat === 200){
         console.log('OK!');
