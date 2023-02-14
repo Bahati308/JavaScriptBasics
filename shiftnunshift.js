@@ -1,10 +1,10 @@
 //this is about shift and unshift
 
-let arr1 = ['hello', 1, true];
+let arr1 = ["hello", 1, true];
 
 console.log(arr1);// original content
 
-console.log (arr1.unshift('new value'));//unshift adds 
+console.log (arr1.unshift("new value"));//unshift adds 
 // a value at the beginning of the array and returns the 
 // new array length
 
