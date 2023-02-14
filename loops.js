@@ -6,4 +6,10 @@ const names = ['jane', 'jackie', 'christine'];
 
 console.log('----while loop-----');
 
-let 
+let whileIndex = 0;
+
+while (whileIndex < names.length) {
+    const name = names [whileIndex];
+console.log(name);
+    whileIndex ++;
+}
