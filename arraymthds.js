@@ -6,4 +6,6 @@ let arr1 = ['A', true, 9];
 
 console.log (arr1.push('new value'));
 console.log(arr1);
+console.log(arr1.pop()); // remove last value
+console.log(arr1);
 
