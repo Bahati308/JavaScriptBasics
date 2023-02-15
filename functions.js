@@ -7,4 +7,5 @@ function printHello(params) {
 
 console.log(typeof printHello);// this defines its type
 
+//this step is so crucial
 printHello(); // this invokes the function
