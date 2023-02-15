@@ -3,12 +3,9 @@
 
 function printHello(name, dode) {
     console.log('hello ', name,dode);
+        return 'name '+'eay';
 }
 
-console.log(typeof printHello);// this defines its type
-
-//this step is so crucial
-printHello('Bahati308','coolguy'); // this invokes the function
 
 // function return
 
