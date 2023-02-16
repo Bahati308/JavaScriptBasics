@@ -3,12 +3,13 @@
 //properties and methods 
 
 const book = {
-    title:"2023",
-    author:"Abcd Efg",
+    title:"2023",// this is an object literal, cause 
+                 //we are creating and defining at the same time 
+    author:"Abcd Efg",//title, author, and isAvailable are the properties
     isAvailable: true,
 
 
-checkIn: function()  {
+checkIn: function()  {// and checkIn and checkOut are the methods
     this.isAvailable =true;
 },
 
