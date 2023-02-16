@@ -13,9 +13,12 @@ newbook.isAvailable =true;
 
 newbook.checkIn = function(){
     this.isAvailable = true;
+    return this;
 
-}
+};
 
 newbook.chekOut =function(){
     this.isAvailable = false;//note the use of the 'this' key word
-}
+    return this;
+};
+console.log(newbook.checkIn());
