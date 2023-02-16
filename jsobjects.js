@@ -19,3 +19,22 @@ checkOut: function(){
 };
 
 console.log(typeof book);
+
+
+//we can as well create objects using constructors
+
+const newbook = new Object();
+newbook.title ="2023";
+newbook.author = "abc def";
+newbook.isAvailable =true;
+
+newbook.checkIn = function(){
+    this.isAvailable = true;
+
+}
+
+newbook.chekOut =function(){
+    this.isAvailable = false;
+}
+
+console.log(typeof book);
