@@ -21,4 +21,5 @@ newbook.chekOut =function(){
     this.isAvailable = false;//note the use of the 'this' key word
     return this;
 };
-console.log(newbook.checkIn());
+console.log(newbook.author);
+console.log(newbook["title"]);// here we have used bracket notation
