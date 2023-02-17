@@ -5,4 +5,13 @@ function callback (){
 
 }
 
-setTimeout(callback, 3000); // wait 3 seconds
+setTimeout(callback, 3000); // wait 3 seconds, 3000ms
+
+
+//time to see promises in action
+
+function promiseTimeout(ms){
+    return new Promise(() =>{
+       
+    })
+}
