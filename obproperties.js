@@ -9,7 +9,7 @@
 const newbook = new Object();
 newbook.title ="2023";
 newbook.author = "abc def";
-newbook.isAvailable =true;
+newbook.isAvailable =true,
 
 newbook.checkIn = function(){
     this.isAvailable = true;
