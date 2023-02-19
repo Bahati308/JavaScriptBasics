@@ -2,7 +2,9 @@
 
 function promiseTimeout(ms) {
     return new Promise ((resolve, reject) => {
-        setTimeout(reject,ms);
+        setTimeout(reject,ms);// this reject thing will return error,
+                            // and the resolve thing will return the 
+                            // intended messages
     });
 }
 
