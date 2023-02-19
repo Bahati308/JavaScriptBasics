@@ -12,7 +12,7 @@ promiseTimeout(2000)
 
     .then(() => {
 
-        console.log('this is a success because the above parameter was resolve')
+        console.log('this is a success because the parameter was set to resolve')
 
         console.log('success, DONE after 1s or 1000ms!!')// this will be printed 
                                 //when all is well
