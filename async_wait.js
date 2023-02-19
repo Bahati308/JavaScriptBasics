@@ -2,7 +2,7 @@
 // this is where async/wait comes handy
 
 function promiseTimeout(ms) {
-    return new promiseTimeout(()=>{
+    return new Promise((resolve,reject)=>{
         setTimeout(resolve, ms);
     });
 }
@@ -14,3 +14,5 @@ async function run() {
     await promiseTimeout(2000)
     console.log('stop');
 }
+
+run();
