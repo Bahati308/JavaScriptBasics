@@ -13,6 +13,7 @@ async function run() {
     console.log('start');
     await promiseTimeout(2000)
     console.log('stop');
+    console.log('the stop message had to wait for 2s');
 }
 
-run();
+            run();// without this, the program will not execute.
