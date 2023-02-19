@@ -11,7 +11,7 @@ async function run() {
 
     // logic
     console.log('start');
-    await promiseTimeout(2000)
+    await promiseTimeout(2000)// alawys use the await, never forget
     console.log('stop');
     console.log('the stop message had to wait for 2s');
 }
