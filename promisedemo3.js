@@ -26,6 +26,7 @@ promiseTimeout(2000)
     })
     .then((result)=>{
             console.log(result);
+    console.log('hense we use promises to manage a long running asychronus operations')
     })
     
     .catch(()=>{
